@@ -1,0 +1,31 @@
+<head>
+  <style>
+
+  html, body {
+    overflow-y: visible;
+  }
+
+  .boxsizingBorder {
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+  }
+
+  </style>
+</head>
+
+<body onload="prettyPrint()">
+  <div id="input">
+    <button id="back" type="button"></button>
+    <input id="query" type="text" class="searchField">
+    <button id="forward" type="button"></button>
+  </div>
+
+  <textarea id="translation" cols="300">
+  </textarea>
+
+  <div id="strokes">
+  </div>
+
+  <script src="scripts/bundle.js"></script>
+</body>
