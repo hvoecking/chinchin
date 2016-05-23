@@ -1,0 +1,29 @@
+{
+  "name": "chinchin",
+  "version": "1.0.0",
+  "description": "Simple vocab trainer.",
+  "main": "main.js",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "browserify": "^13.0.1",
+    "cls-bluebird": "^1.0.1",
+    "jquery": "^2.2.4",
+    "lodash": "^4.12.0",
+    "request-promise": "^3.0.0",
+    "xpath": "^0.0.23",
+    "continuation-local-storage": "^3.1.7",
+    "express": "^4.13.4",
+    "xmldom": "^0.1.22",
+    "xpath2.js": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/hvoecking/chinchin"
+  },
+  "author": "Heye Vöcking",
+  "license": "MIT"
+}
